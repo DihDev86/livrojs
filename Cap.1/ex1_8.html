@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de viagem</title>
+</head>
+<body>
+    <script>
+        const diasViagem = Number(prompt("Digite o número de dias de viagem: ")) //Lê os dados de entrada de dias de viagem e converte para number
+        const horasViagem = Number(prompt("Digite o número de horas de viagem: ")) // Lê os dados de horas de viagem e converte para number
+
+        const horasDias = diasViagem * 24 // Processamento de dados(multiplica o número de dias por 24 horas que corresponde a um dia)
+        const  totalHoras = horasDias + horasViagem //Processamento (Soma o número de horas do dia ao número de horas)
+
+        alert(`O número de horas de viagem é: ${totalHoras} horas de viagem`) // Saída de dados 
+    </script>
+</body>
+</html>

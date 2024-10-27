@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo do dobro de um número</title>
+</head>
+<body>
+    <script>
+        const num = prompt("Número é: ") // Lê um dado de entrada 
+        const dobro = num * 2            // Calcula o dobro
+        alert("O dobro é "+ dobro)       // Exibe a resposta
+
+        //Como estamos realizando uma operação de multiplicação, não é necessário converte a entrada de dados realizada pelo método prompt( )
+
+        //Para calcular o dobro a partir de uma operação de adição precisamos converter a entrada de dados a partir do metódo prompt
+
+        const num2 = Number(prompt("Digite um número: ")) // Lê a a entrada de dados e converte para números(Entradas de dados pelo método prompt( ) sempre é string
+        
+        const dobro2 = num2 + num2 
+        alert(`O dobro 2 é ${dobro2}`)
+    </script>
+    
+</body>
+</html>

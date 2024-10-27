@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de compra à vista e parcelado</title>
+</head>
+<body>  
+    <script>
+        let preco = Number(prompt("Digite o valor R$: ")) 
+        let desconto = preco * 0.10 // Cálculo do dos 10% | Ex: 100 * 0.10 = 10 
+        let aVista = preco - desconto // Cálculo do valor à vista
+
+        let parcelado = Number(prompt("Digite o número de parcelas: "))
+        let valorParcela = preco / parcelado
+
+        alert(`O valor à vista é R$: ${aVista.toFixed(2)} \n O valor parcelado é R$: ${valorParcela.toFixed(2)}`)
+
+    </script>
+    
+</body>
+</html
